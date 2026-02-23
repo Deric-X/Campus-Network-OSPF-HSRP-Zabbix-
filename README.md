@@ -82,17 +82,47 @@ Interfaces VLAN en passive-interface
 Liaisons point-à-point redondantes
 
 Injection de la route par défaut :
-
-
+```bash
 default-information originate always
+```
 🔹 Objectifs
 
-Convergence rapide
+* Convergence rapide
 
-Architecture évolutive
+* Architecture évolutive
 
-Standard entreprise
+* Standard entreprise
 
 * Maintien de la passerelle
 
 * Perte de paquets minimale
+
+# 📊 Supervision Réseau – Zabbix
+
+<img width="1022" height="732" alt="dash" src="https://github.com/user-attachments/assets/32c8b59a-1c53-451e-b0f6-fc4e3c7bde27" /> 
+
+Supervision via SNMPv2 configuré sur les deux équipements Distribution.
+
+🔎 Paramètres supervisés :
+
+État des interfaces
+
+Charge CPU
+
+État des voisins OSPF
+
+État HSRP (Active/Standby)
+
+Événements Link Up / Link Down
+
+🔔 Traps activés :
+
+SNMP
+
+OSPF state-change
+
+HSRP
+
+Link down/up
+
+Zabbix génère des alertes en cas de basculement ou d’anomalie réseau.
