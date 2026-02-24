@@ -1,5 +1,5 @@
 # 📡 Architecture Réseau d’Entreprise – OSPF, HSRP, VLAN & Supervision Zabbix
-<img width="938" height="866" alt="Screenshot_20260223_235022" src="https://github.com/user-attachments/assets/76fafdbb-a83b-4040-b876-3e42a4dab2f9" />
+<img width="759" height="711" alt="image" src="https://github.com/user-attachments/assets/7491a654-ec1e-4c19-85ad-71056e8446bc" />
 
 # 📌 Présentation du Projet
 
